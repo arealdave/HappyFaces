@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<faces-config version="2.0" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xi="http://www.w3.org/2001/XInclude"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd">
+ 
+ 
+ <component>
+ 	<component-type>CalendarComponentFamily</component-type>
+ 	<component-class>com.github.happyfaces.component.CalendarComponent</component-class>
+ </component>
+ 
+ <render-kit>
+ 	<renderer>
+ 		<description>Calendar renderer</description>
+ 		<component-family>CalendarComponentFamily</component-family>
+ 		<renderer-type>CalendarRenderer</renderer-type>
+ 		<renderer-class>com.github.happyfaces.component.CalendarRenderer</renderer-class>
+ 	</renderer>
+ </render-kit>
+ 
+
+</faces-config>

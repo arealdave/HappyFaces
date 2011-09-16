@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com.xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+
+	<tlib-version>1.0</tlib-version>
+	<short-name>happyfaces</short-name>
+	<uri>http://happyfaces.github.com/hf</uri>
+
+	<tag>
+		<name>calendar</name>
+		<tag-class>com.github.happyfaces.component.CalendarTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+	<tag>
+		<name>helloworld</name>
+		<tag-class>com.github.happyfaces.component.HelloWorldTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>greeting</name>
+			<required>false</required>
+			<deferred-value>
+				<type>java.lang.String</type>
+			</deferred-value>
+		</attribute>
+	</tag>
+
+</taglib>
